@@ -13,7 +13,7 @@ const userRoute = require('./routes/UserRoutes');
 const studentRoute = require('./routes/StudentRoutes');
 
 //environment varaiables
-require("dotenv").config();
+// require("dotenv").config();
 if (process.env.NODE_ENV === "production") {
   require("dotenv".config({
     path: "./.env",
