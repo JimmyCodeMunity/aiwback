@@ -26,7 +26,7 @@ async function Notify({ userEmail }) {
     });
 
     try {
-        const htmlContent = await readFile('./email-template.html');
+        const htmlContent = await readFile('../email-template.html');
 
         const info = await transporter.sendMail({
             from: 'dev.jimin02@gmail.com',
